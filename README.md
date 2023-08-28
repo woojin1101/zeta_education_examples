@@ -1,2 +1,1 @@
-# zeta_education_examples
-zetabank education examples
+# These are educational examples from zetabank.
