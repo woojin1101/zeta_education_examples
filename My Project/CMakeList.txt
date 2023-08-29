@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(my_first_ros_pkg)
+project(my_project_pkg)
 find_package(catkin REQUIRED COMPONENTS roscpp std_msgs)
 catkin_package(CATKIN_DEPENDS roscpp std_msgs)
 include_directories(${catkin_INCLUDE_DIRS})
