@@ -3,7 +3,7 @@ project(my_project_pkg)
 find_package(catkin REQUIRED COMPONENTS roscpp std_msgs)
 catkin_package(CATKIN_DEPENDS roscpp std_msgs)
 include_directories(${catkin_INCLUDE_DIRS})
-add_executable(hello_world src/hello_world.cpp)
+add_executable(Hello_World src/Hello_World.cpp)
 target_link_libraries(hello_world ${catkin_LIBRARIES})
 
 add_executable(My_Project src/My_Project.cpp)
