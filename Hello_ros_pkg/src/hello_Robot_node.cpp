@@ -4,10 +4,10 @@
 
 int main(int argc, char **argv)
 {
-  ros::init(argc, argv, "hello_world_node");
+  ros::init(argc, argv, "hello_Robot_node");
   ros::NodeHandle nh;
-  ros::Publisher chatter_pub = nh.advertise<std_msgs::String>("say_hello_world", 1000);
-  ros::Rate loop_rate(10);
+  ros::Publisher chatter_pub = nh.advertise<std_msgs::String>("say_hello_Robot", 1000);
+  ros::Rate loop_rate(1);
   int count = 0;
 
   while (ros::ok())

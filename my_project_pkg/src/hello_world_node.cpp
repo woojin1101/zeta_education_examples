@@ -1,4 +1,9 @@
+
 #include <iostream> // 표준 헤더 파일에서는 확장자 생략
+#include <ros/ros.h>
+#include <std_msgs/String.h>
+#include <sstream>
+
 
 int main(void)
 {
