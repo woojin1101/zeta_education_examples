@@ -1,4 +1,4 @@
-# write or read, erase memo.txt file.
+# Write or read, erase memo.txt file.
 
 import sys
 
