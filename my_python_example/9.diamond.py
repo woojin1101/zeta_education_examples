@@ -1,4 +1,4 @@
-# Print Diamond Shape
+# Print Diamond Figure
 
 def print_diamond(n):
     for i in range(n):
