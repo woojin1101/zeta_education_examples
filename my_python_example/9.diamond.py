@@ -11,7 +11,7 @@ def print_diamond(n):
         print("□" * spaces + "■" * diamonds + "□" * spaces)
 
 # Get user input for the size of the diamond
-n = int(input("Enter Number: "))
+n = int(input("Enter Number (odd number) : "))
 
 # Check if the input is a positive odd integer
 if n % 2 == 0 or n <= 0:
