@@ -14,8 +14,8 @@ include_directories(
   ${catkin_INCLUDE_DIRS}
 )
 
-add_executable(server_node src/server.cpp)
+add_executable(server_node src/server_class.cpp)
 target_link_libraries(server_node ${catkin_LIBRARIES})
 
-add_executable(client_node src/client.cpp)
+add_executable(client_node src/client_class.cpp)
 target_link_libraries(client_node ${catkin_LIBRARIES})
