@@ -5,8 +5,8 @@ import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 
 # File paths
-train_file_path = "train.csv"
-test_file_path = "test.csv"
+train_file_path = "titanic_train.csv"
+test_file_path = "titanic_test.csv"
 
 # Load the Titanic train dataset
 train_data = pd.read_csv(train_file_path)
